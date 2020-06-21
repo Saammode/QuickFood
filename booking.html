@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>Booking</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/booking.css">
+    </head>
+    <body>
+        <header id="Nav">
+            <img src="img/logo.png" class="logoTop" alt="Orchid_Logo" />
+            <span class="crossbtnr">X</span>
+            <div id="optionBar">
+                <span class="navbtn"></span>
+                <span class="navbtn"></span>
+                <span class="navbtn"></span>
+            </div>
+        
+            <div id="lineBreak">
+                <br>
+            </div>
+            <nav>
+                <ul class="navForResponsive">
+                    <a href="contact.html">
+                        <li class="navigation">Contact Us</li>
+                    </a>
+                    <a href="menue.html">
+                        <li class="navigation">Menue</li>
+                    </a>
+                    <a href="booking.html">
+                        <li class="navigation primary">Booking</li>
+                    </a>
+                    <a href="employees.html">
+                        <li class="navigation">Employees</li>
+                    </a>
+                    <a href="index.html">
+                        <li class="navigation">Home</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+        <center>
+            <h1>If you want to <span class='secondary-sky-blue'>BOOK</span> a restaurant, We are the <span class='primary'>BEST</span> </h1>
+            <form method="post">
+                <fieldset>
+                <div>
+                <label for="name">Full Name</label>
+                <input type="text">
+                </div>
+                <div>
+                <label for="tel">Mobile Number</label>
+                <input type="number" min="7000000" max="9999999">
+                </div>
+                <div>
+                <label for="email">Email</label>
+                <input type="email">
+                </div>
+                </fieldset>
+                <fieldset>
+                <div>
+                <label for="date">Desired Date</label>
+                <input type="date" id="desiredDate">
+                </div>
+                <div>
+                <label for="time">Time</label>
+                <input type="time">
+                </div>
+                </fieldset>
+                <fieldset>
+                <label for="package">Choose the desired package</label>
+                <select name="package">
+                    <option value="family_5_people">Family (5 people)</option>
+                    <option value="family_4_People">Famiy (4 people)</option>
+                    <option value="couple">Couple</option>
+                    <option value="single" selected>Single</option>
+                </select>
+                </fieldset>
+                
+                <fieldset>
+                    <input type="submit" id="btn" class="primary-bg"><input type="reset" id="btn" class="secondary-dark-blue-bg">
+                </fieldset>
+                </center>
+            </form>
+        </main>
+        <footer>
+            <p>Copyright &copy;<span class="primary">Quick Food</span> 2020 . All Rights Reserved.</p>
+        </footer>
+        <script src="js/index.js"></script>
+    </body>
+</html>

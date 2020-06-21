@@ -1,0 +1,84 @@
+.checkout{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.container {
+  background-color: #34495e;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid #e74c3c;
+  border-radius: 3px;
+}
+span.price {
+  float: right;
+}
+
+.product{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+}
+.total{
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 30px;
+  
+}
+.buttonDesign {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 21px;
+  background: #2d82d8;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+.buttonDesign:hover {
+  background: #34495e;
+  color: #e74c3c;
+}
+
+@media only screen and (max-width: 468px) {
+    .buttonDesign{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        font-size: 10px;
+    }
+.hide{
+    display: none;
+}
+.product, .total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+  }
+
+@media only screen and (max-width: 311px) {
+.hide, .name,.email,.address{
+    display: none;
+}
+.product, .total{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.total{
+    font-size: 20px;
+    margin-top: 10px;
+    text-decoration: underline;
+}
+
+  }

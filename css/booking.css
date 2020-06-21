@@ -1,0 +1,45 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+select, input:not([type=submit]):not([type=reset]){
+	color: #777;
+    padding: 10px;
+    margin: 10px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.2) inset;
+    border: none;
+    border-radius: 20px;
+}
+
+label{
+    font-size: 1.5em;
+    font-family: monospace;
+}
+
+form div{
+    display: inline-block;
+}
+
+form{
+    padding: 10px;
+}
+
+#btn{
+    padding: 10px 20px 10px 20px;
+    margin: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+}

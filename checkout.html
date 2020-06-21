@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Checkout</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/checkout.css">
+
+    </head>
+    <body>
+        <header id="Nav">
+            <img src="img/logo.png" class="logoTop" alt="Orchid_Logo" />
+            <span class="crossbtnr">X</span>
+            <div id="optionBar">
+                <span class="navbtn"></span>
+                <span class="navbtn"></span>
+                <span class="navbtn"></span>
+            </div>
+        
+            <div id="lineBreak">
+                <br>
+            </div>
+            <nav>
+                <ul class="navForResponsive">
+                    <a href="contact.html">
+                        <li class="navigation">Contact Us</li>
+                    </a>
+                    <a href="menue.html">
+                        <li class="navigation">Menue</li>
+                    </a>
+                    <a href="booking.html">
+                        <li class="navigation">Booking</li>
+                    </a>
+                    <a href="employees.html">
+                        <li class="navigation">Employees</li>
+                    </a>
+                    <a href="index.html">
+                        <li class="navigation">Home</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+
+<div class="checkout">
+    <div class="container">
+        <span class="hide"><h1 class="white"><img src="img/cart.png" alt="Cart"/> <span class="price white" >Deatils</span></h1></span>
+        <hr>
+        <p class="primary product"><span class="hide">Billing Name </span><span class="price name"></span></p>
+        <p class="primary product"><span class="hide">Billing Address </span><span class="price address"></span></p>
+        <p class="primary product"><span class="hide">Email </span><span class="price email"></span></p>
+        <p class="primary product"><span class="hide">Food Name </span><span class="price food"></span></p>
+        <p class="primary product"><span class="hide">Food Price </span><span class="price amount" id="price"></span></p>
+        <p class="primary product"><span class="hide">Quantity Of Food </span><span class="price quantity"></span></p>
+        <hr>
+        <h1 class="white"><span class="hide">Total </span><span class="price secondary-sky-blue total " ><b>$30</b></span></h1>
+        <br><br><br><br>
+    </div>
+<center>
+    <div class="buttons">
+        <a href="payment.html"><button class="buttonDesign">Make the Payment</button></a>
+        <a href="order.html"><button onclick="order.html" class="buttonDesign">Go back</button></a>
+    </div>
+</center>
+</div>
+</div>
+
+
+        </main>
+        <footer>
+            <p>Copyright &copy;<span class="primary">Quick Food</span> 2020 . All Rights Reserved.</p>
+        </footer>
+    <script src="js/index.js"></script>
+    <script src="js/checkout.js"></script>
+    </body>
+</html>

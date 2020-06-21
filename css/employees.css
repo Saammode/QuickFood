@@ -1,0 +1,94 @@
+footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+#team p, #team h1{
+    width: 60%;
+    text-align: center;
+}
+
+#image{
+	position: relative;
+	top: auto;
+	width: 265px;
+	height: 225px;
+	margin: 30px;
+	margin-bottom: 50px;
+	
+	
+}
+
+#overlay{
+    position: absolute;
+	top: 0%;
+	opacity: 0;
+	left: 0px;
+	text-align: center;
+	background: rgba(0,0,0,0.8);
+	width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+}
+
+#overlay:hover{
+	-webkit-transition: all ease-out 1.2s;
+	-moz-transition: all ease-out 1.2s;
+	-o-transition: all ease-out 1.2s;
+	transition: all ease-out 1.2s;
+    opacity: 100;
+}
+
+.name{
+    padding-top: 80px;
+}
+
+#gridTeam{
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+#smallDevice{
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+#overlay{
+	background: rgba(255, 255, 255, 0.158);
+	opacity: 100%;
+	padding: 0px;
+	padding-top: 100px;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 50px;
+	justify-content: center; 
+}
+#image{
+	display: block;
+	width: 265px;
+	height: 225px;
+	margin: 30px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+	#gridTeam{
+	display: none;
+}
+#smallDevice{
+	display: block;
+	text-align: center;
+
+}
+
+}
+
+
